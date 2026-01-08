@@ -1,0 +1,10 @@
+poll_interval_seconds: 30
+timeout_seconds: 5
+failure_alert_threshold: 3
+
+apis:
+  - name: GitHub API
+    url: https://api.github.com
+
+  - name: HTTPBin Delay
+    url: https://httpbin.org/delay/2
